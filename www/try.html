@@ -1,0 +1,21 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="right"><ons-toolbar-button ng-click="myNavigator.popPage()"><ons-icon icon="fa-times"></ons-icon></ons-toolbar-button></div>
+    </ons-toolbar>
+    <div style="text-align: center;">
+        <h3 class="normal">Choose your goal</h3>
+        <h4 class="thin">You can add more later</h4>
+        <ons-carousel halfscreen swipeable auto-scroll overscrollable item-width="75%" id="carousel">
+            <ons-carousel-item>
+                <ons-button ng-click="myNavigator.pushPage('profile.html')" modifier="no-background">
+                    <img class="investment-card" src="assets/card_edu.jpg" />
+                </ons-button>
+            </ons-carousel-item>
+            <ons-carousel-item>
+                <ons-button modifier="no-background disabled">
+                    <img class="investment-card" src="assets/card_general.jpg" />
+                </ons-button>
+            </ons-carousel-item>
+        </ons-carousel>
+    </div>
+</ons-page>
