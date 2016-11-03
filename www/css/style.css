@@ -6,7 +6,8 @@
 }
 
 .navigation-bar {
-    border: 0;
+    border: none;
+    background: transparent;
 }
 .page--splash-back__background {
     background:url(../assets/background_splash.jpg) no-repeat center;
@@ -84,4 +85,14 @@ ons-carousel[halfscreen] {
 .button--disabled {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+
+.stacked-form {
+    margin:30px auto 0 auto;
+    width:50%;
+    text-align:left;
+}
+
+.stacked-bottom {
+    margin-top: 5px;
 }
